@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+
+    <style>
+
+    
+    ul{
+        list-style-type: square; 
+    }
+
+    ol{
+        list-style-type: lower-alpha;
+    }
+
+    .fav-movies {
+        list-style-type: circle;
+    }
+
+    .fav-movies ol{
+        list-style-type: decimal;
+    }
+
+    ol.hidden-figures{
+        /*list-style-type: upper-alpha;
+        list-style-position: inside;*/
+        list-style:upper-alpha inside;
+    }
+
+    ol.colombiana{
+        /*list-style-type: upper-roman;
+        list-style-position: outside;*/
+        list-style: upper-roman outside;
+    }
+    </style>
+</head>
+<body>
+    
+    <h1>Lists</h1>
+
+    <h2>Unordered List</h2>
+
+    <h3>Grocery List</h3>
+    <ul>
+        <li>2 cartons of fresh milk</li>
+        <li>1 tray of eggs</li>
+        <li>1 box of chocolate</li>
+    </ul>
+
+    <h2>Order List</h2>
+
+    <h3>Top 4 Beaches in the World</h3>
+
+    <ol>
+        <li>Gouver, St. Barts</li>
+        <li>White Beach, Boracay, Philippines</li>
+        <li>North Island, Seychelles</li>
+        <li>North Male Atoll, Maldives</li>
+    </ol>
+
+    <h2>Nested List</h2>
+    <h3>My favorite Movies</h3>
+    <ul class="fav-movies">
+        <li>Hidden Figures
+            <ol class="hidden-figures">
+                <li>Taraji P. Henson - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio iusto impedit soluta sit numquam debitis dolorem temporibus delectus pariatur? Illo perspiciatis aspernatur natus necessitatibus optio iure quas nostrum! In beatae enim possimus reiciendis aperiam molestiae saepe sequi cum unde, dolore vel error, accusantium, aspernatur hic reprehenderit. Aliquid tenetur eveniet magni, r
+                    ecusandae consectetur sunt veritatis mollitia numquam asperiores fugiat natus soluta?</li>
+                <li>Octavia Spencer - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, nobis molestiae. Libero consequuntur eos qui, voluptas quidem nesciunt perferendis ipsam distinctio facere facilis quisquam sed laborum veniam. Laudantium, debitis voluptas?</li>
+                <li>Janelle Monae - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quam repudiandae dolor sit cupiditate dicta tempora. Ex expedita velit necessitatibus consectetur, officia consequatur, reprehenderit laboriosam laborum debitis in molestiae. Voluptates.</li>
+            </ol>
+        </li>
+        <li>Colombiana
+            <ol class="colombiana">
+                <li>Zoe Saldana - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae commodi possimus voluptate consequuntur aliquid aspernatur culpa quam minima reprehenderit laboriosam. Ullam eligendi natus praesentium. Quasi esse animi nostrum explicabo molestias?</li>
+                <li>Michael Vartan - Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatem quod itaque modi facere eius eos temporibus nostrum accusamus error, illo laborum voluptates inventore tempore fugit rerum cupiditate libero eligendi.</li>
+            </ol>
+        <li>Spider-man: No way Home
+            <ol class="spider-man">
+                <li>Tom Holland</li>
+                <li>Tobey Maguire</li>
+                <li>Andrew Garfield</li>
+                <li>Zendaya</li>
+
+            </ol>
+        </li>
+        </li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--table elements-->
+        <!-- table = parent element
+         tr = table(row)
+         td = table date (date colum)
+         th = table hesder (title colum)
+
+         attributes:
+             colspan = merge column cells
+             rowspan = merge row cells 
+
+             Grouping table content:
+              thead = group thead content(tr)
+              tbody = group tbody content(tr)
+              tfoot = group tfoot content(tr)
+        -->
+
+    
+     <table border="1" width="100%">
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Gender</td>
+        </tr>
+        <tr>
+            <td>Takuma</td>
+            <td>23</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <td>Masato</td>
+            <td>23</td>
+            <td>male</td>
+        </tr>
+    </table>
+
+     <h2>Table sample 2 using th</h2>
+     <table border="1" width="500px"
+     <tr>
+         <th>Name</th>
+         <th>Adress</th>
+         <th>Telephone No.</th>
+    </tr>
+         <th>John Doe</th>
+         <th>California</th>
+         <th>749327424</th>
+    <tr>
+        <th>Jane Danes</th>
+        <th>Los Angels</th>
+        <th>6546556656</th>
+    </tr>
+</table>
+
+<h2>Table sample 3 using th and td</h2>
+<table border="1" width="600px">
+    <tr>
+        <th>Name</th>
+        <th>Email address</th>
+        <th>Phone number</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jhon Glenn</td>
+        <td>Jhonglen@yahoo.com</td>
+        <td>543765457</td>
+        <td>56</td>
+    </tr>
+    <tr>
+        <td>Kimberly Smith</td>
+        <td>Kimberly@gmail.com</td>
+        <td>756754528</td>
+        <td>34</td>
+    </tr>
+    </table>
+
+    <h2>Table sample 4 using Colspan</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Numbers</th>
+            <!-- <th></th> -->
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>84358589</td>
+            <td>57768668</td>
+        </tr>
+        <tr>
+            <td>Steve</td>
+            <td>45767867</td>
+            <td>84583458</td>
+        </tr>
+
+        </table>
+
+        <h2>Table sample 5 using Rowspan</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Bill</th>
+                <th>Steve</th>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Contact Number</th>
+                <td>764564745</td>
+                <td>875683885</td>
+            </tr>
+            <tr>
+                <!-- <th></th> -->
+                <td>84686786</td>
+                <td>85658696</td>
+            </tr>
+        </table>
+</body>
+</html>

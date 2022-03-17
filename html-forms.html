@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="first-name">First Name</label>
+        <input type="text"name=firstname" id="firstname">
+
+        <label for=""last-name">Last Name</label>
+        <input type="text" name="lastname" id="lastname">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password"id="password"><br>
+
+        <label for="date"></label>Date:</label>
+        <input type="date"name="date"id="date"><br>
+
+        <label for="email">Email:</label>
+        <input type="email"name="email"id="email"><br>
+
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+
+        <p>Please select your music genre:</p>
+        <input type="radio"name="music"id="rock"value="rock">
+        <label for=""rock">Rock</label>
+
+        <input type="radio"name="music"id="pop"value="pop">
+        <label for="pop">Pop</label>
+
+        <input type="radio"name="music"id="jazz"value="jazz">
+        <label for="jazz">Jazz</label>
+        <br><br>
+
+        <p>Please select your favorite food:</p>
+        <input type="checkbox"name="food"id="ramen"value="ramen">
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox"name="food> id="sushi" value="sushi">
+        <label for="sushi">Sushi</label>
+
+        <input type="checkbox"name="food"id="chocolate"value="chocolate">
+        <label for="chocolate">Chocolate</label>
+
+        <br><br>
+
+        <p>What is your device?</p>
+        <select name="device" id="device">
+            <option value="" hidden>Select your device</option>
+            <option value="macbook">Macbook</option>
+            <option value="iphone">iPhone</option>
+            <option value="windowspc">Windows PC</option>
+            <option value="android">Android Phone</option>
+        </select>
+
+        <br><br>
+        <p>What is your device? Multiple Select</p>
+        <select name="device" id="device" multiple>
+            <option value=""hidden>Select your device</option>
+            <option value="macbook">Macbook</option>
+            <option value="iphone">iPhone</option>
+            <option value="windowspc">Windows PC</option>
+            <option value="android">Android Phone</option>
+        </select>
+
+<br><br>
+<p>select a file:</p>
+<input type="file"name="file"id="file" required>
+<input type="submit">
+    </form>
+
+    <form>
+
+        <p>What is your device?</p>
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" required>
+
+        <br>
+        
+            <select name="device" id="device" required>
+                <option value=""hidden>Select your device</option>
+                <option value="macbook">Macbook</option>
+                <option value="iphone">iPhone</option>
+                <optiion value="windowspc">Windows PC</option>
+                <option value="android">Android Phone</option>
+            </select>
+        <label for="last_name"> Last Name</label>
+        <input type="text" name="last_name" id="last_name" required>
+        <input type="submit" title="Submit">
+        
+    <br>
+
+    </form>
+    <form action="">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="full_name" id="full-name" placeholder="Last name, First name">
+
+        <br>
+
+        <label for="username">Username</label>
+        <input type="text" name="" id="username" required>
+
+        <br>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="60">
+
+        <br>
+
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday" min="2022-01-01" max="2022-02-23">
+
+        <br><br>
+
+        <button type="submit" name="btn_saveSubmit">Save</button>
+        <!--button type="submit" name"btn_submit">Submit</button> -->
+    </form>
+</body>
+</html>

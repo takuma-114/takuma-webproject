@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSTables</title>
+</head>
+
+    <style>
+        table{
+            empty-cells: hide; /*or show*/
+            border-collapse: collapse;/*separate*/
+            width:30%;
+            text-align: center;
+            /*border-spacing: 20px;*/
+        }
+
+
+        table, th, td{
+            /*border:1px solid;*/
+            border-bottom: 1px solid black;
+        }
+
+        th{
+            height:70px;
+            background-color: beige;
+        }
+
+        tr:hover{background-color: coral;}
+    </style>
+<body>
+    <h2> CSS Tables</h2>
+
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+        </tr>
+        <tr>
+            <td>Louis</td>
+            <td>Griffin</td>
+        </tr>
+    </table>
+</body>
+</html>

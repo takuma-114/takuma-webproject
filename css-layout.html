@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouting</title>
+</head>
+<style>
+    div{
+        border:3px solid green
+    }
+
+    .select{
+        position: static;
+    }
+
+.relative{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    width: 300px;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+}
+</style>
+<body>
+    <h2> Position: Static</h2>
+    <p> An element with position static is not position in any special way</p>
+
+    <div class= "static">
+        This div is position static
+    </div>
+
+    <h2> Position: Relative </h2>
+    <div class="relative">
+        This div has position relative
+    </div>
+
+    <h2> Position: Fixed </h2>
+    <div class="fixed">
+        This div has position fixed
+    </div>
+
+    <h2> Position: Absolute </h2>
+    <div class="absolute">
+        This div has position absolute
+    </div>
+
+    <h3>
+    <h2> Display properties </h2>
+
+    
+    <h3> Display NONE</h3>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ratione error saepe commodi quaerat quas architecto, 
+        ullam velit nam inventore possimus aspernatur dicta quam blanditiis hic, <p class="ex1"></pclass> HELLO WORLD </p> pariatur vitae fuga aperiam.
+    </div>
+
+</body>
+</html>
